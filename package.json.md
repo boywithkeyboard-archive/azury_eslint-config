@@ -9,18 +9,18 @@
 4. `description`
 5. `private`
 6. `author`
-8. `types`
 9. `exports`
-10. `scripts`
-11. `license`
-12. `repository`
-13. `bugs`
-14. `homepage`
-15. `dependencies`
-16. `devDependencies`
-17. `peerDependencies`
-18. `engines`
-19. `type`
+10. `types`
+11. `scripts`
+12. `license`
+13. `repository`
+14. `bugs`
+15. `homepage`
+16. `dependencies`
+17. `devDependencies`
+18. `peerDependencies`
+19. `engines`
+20. `type`
 
 ### Example
 
