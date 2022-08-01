@@ -6,8 +6,8 @@
 
 1. `name`
 2. `version`
+3. `private`
 4. `description`
-5. `private`
 6. `author`
 9. `exports`
 10. `types`
