@@ -10,7 +10,8 @@ module.exports = {
     'plugin:import/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/errors',
-    'plugin:import/warnings'
+    'plugin:import/warnings',
+    'plugin:import/typescript'
   ],
   rules: {
     '@typescript-eslint/consistent-type-imports': 2,
