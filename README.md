@@ -1,17 +1,30 @@
 ## Azury's Style Guide
 
-### ESLint Config
-
-#### Installation
+### Installation
 
 ```bash
-npm i @azury/eslint-config
+npm i @azury/style
 ```
 
-#### Usage
+### Templates
+
+#### ESLint Config
 
 ```yml
-extends: '@azury'
+extends: '@azury/style/eslint'
 ```
 
+#### TypeScript Config
+
+```json
+{
+  "extends": "@azury/style/typescript"
+}
+```
+
+```json
+{
+  "extends": "@azury/style/typescript/react"
+}
+```
 
