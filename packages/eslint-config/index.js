@@ -17,7 +17,6 @@ module.exports = {
     '@typescript-eslint/consistent-type-imports': 2,
     'import/no-unresolved': 2,
     'import/newline-after-import': 2,
-    'import/no-commonjs': 2,
     'import/no-dynamic-require': 2,
     'import/no-commonjs': 2,
     'import/no-amd': 2,
