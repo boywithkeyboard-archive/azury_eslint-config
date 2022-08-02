@@ -9,6 +9,7 @@
 3. `private`
 4. `description`
 6. `author`
+7. `bin`
 9. `exports`
 10. `types`
 11. `scripts`
