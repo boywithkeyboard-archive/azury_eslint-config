@@ -22,6 +22,10 @@ module.exports = {
     'import/no-amd': 2,
     'import/exports-last': 2,
     'import/no-self-import': 2,
+    'import/no-deprecated': 2,
+    'import/no-mutable-exports': 2,
+    'import/no-duplicates': 2,
+    'import/group-exports': 2,
     semi: [
       2,
       'never'
