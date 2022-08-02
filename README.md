@@ -26,12 +26,20 @@ npm i @azury/style
 
 ```json
 {
-  "extends": "@azury/style/typescript"
+  "extends": "@azury/style/typescript",
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.test.ts"
+  ]
 }
 ```
 
 ```json
 {
-  "extends": "@azury/style/typescript/react"
+  "extends": "@azury/style/typescript/react",
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
 }
 ```
