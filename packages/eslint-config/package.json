@@ -1,12 +1,12 @@
 {
   "name": "@azury/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A reusable eslint config.",
   "author": "Samuel Kopp <opensource@azury.dev> (https://azury.dev)",
   "license": "Apache-2.0",
-  "repository": "azurydev/style-guide",
-  "bugs": "https://github.com/azurydev/style-guide/issues",
-  "homepage": "https://github.com/azurydev/style-guide#readme",
+  "repository": "azurystudio/style",
+  "bugs": "https://github.com/azurystudio/style/issues",
+  "homepage": "https://github.com/azurystudio/style#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
