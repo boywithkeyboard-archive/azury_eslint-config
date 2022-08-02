@@ -10,6 +10,7 @@
 4. `description`
 6. `author`
 7. `bin`
+8. `main`
 9. `exports`
 10. `types`
 11. `scripts`
