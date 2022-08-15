@@ -13,6 +13,7 @@ jobs:
       run: echo "VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
 
     steps:
+      - uses: 'actions/checkout@v3'
       - name: 'Publish Release'
         uses: 'actions/github-script@v6'
         with:
@@ -22,6 +23,7 @@ jobs:
               repo: context.repo.repo,
               tag_name: process.env.VERSION,
               name: process.env.VERSION,
+              body: '',
               draft: false,
               prerelease: false
             })
