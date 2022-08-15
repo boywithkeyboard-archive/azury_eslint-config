@@ -1,6 +1,6 @@
 {
   "name": "@azury/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A reusable eslint config.",
   "author": "Samuel Kopp <opensource@azury.dev> (https://azury.dev)",
   "license": "Apache-2.0",
