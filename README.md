@@ -5,7 +5,7 @@
 #### Setup
 
 ```bash
-npm i @azury/eslint-config
+npm i -D @azury/eslint-config
 ```
 
 #### Usage
@@ -19,7 +19,7 @@ extends: '@azury'
 #### Setup
 
 ```bash
-npm i @azury/style
+npm i -D @azury/style
 ```
 
 #### Usage
