@@ -8,7 +8,7 @@
   "bugs": "https://github.com/azurystudio/style/issues",
   "homepage": "https://github.com/azurystudio/style#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.35.1",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-unused-imports": "^2.0.0"
