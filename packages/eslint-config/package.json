@@ -9,7 +9,7 @@
   "homepage": "https://github.com/azurystudio/style#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.36.2",
-    "@typescript-eslint/parser": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.2",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-unused-imports": "^2.0.0"
   },
