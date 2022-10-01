@@ -1,4 +1,4 @@
-## Azury's Style Guide
+## azury's Style Guide
 
 ### ESLint Config
 
@@ -26,7 +26,7 @@ npm i -D @azury/style
 
 ```json
 {
-  "extends": "@azury/style/typescript",
+  "extends": "./node_modules/@azury/style/typescript/tsconfig.json",
   "include": [
     "src/**/*.ts",
     "src/**/*.test.ts"
@@ -36,7 +36,7 @@ npm i -D @azury/style
 
 ```json
 {
-  "extends": "@azury/style/typescript/react",
+  "extends": "./node_modules/@azury/style/typescript/react/tsconfig.json",
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx"
