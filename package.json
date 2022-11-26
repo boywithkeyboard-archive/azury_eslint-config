@@ -4,9 +4,9 @@
   "description": "A reusable eslint config.",
   "author": "Samuel Kopp <opensource@azury.dev> (https://azury.dev)",
   "license": "Apache-2.0",
-  "repository": "azurystudio/style",
-  "bugs": "https://github.com/azurystudio/style/issues",
-  "homepage": "https://github.com/azurystudio/style#readme",
+  "repository": "azurystudio/eslint-config",
+  "bugs": "https://github.com/azurystudio/eslint-config/issues",
+  "homepage": "https://github.com/azurystudio/eslint-config#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.44.0",
     "@typescript-eslint/parser": "^5.44.0",
@@ -14,6 +14,6 @@
     "eslint-plugin-unused-imports": "^2.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.21.0"
+    "eslint": "^8.28.0"
   }
 }
