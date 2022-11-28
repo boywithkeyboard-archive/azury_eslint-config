@@ -3,7 +3,7 @@ name: 'Release'
 on:
   push:
     tags:
-      - 'eslint-config@*'
+      - 'v*'
 
 jobs:
   release:
