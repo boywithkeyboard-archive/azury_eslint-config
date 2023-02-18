@@ -1,4 +1,4 @@
-name: 'Release'
+name: 'release'
 
 on:
   push:
@@ -10,10 +10,10 @@ jobs:
     runs-on: 'ubuntu-latest'
 
     steps:
-      - name: 'Grab Version'
+      - name: 'grab version'
         run: echo "VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
         
-      - name: 'Publish Release'
+      - name: 'publish release'
         uses: 'actions/github-script@v6'
         with:
           script: |
