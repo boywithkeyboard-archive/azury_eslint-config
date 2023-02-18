@@ -1,12 +1,10 @@
 ## azury's eslint config
 
-### Installation
+### Usage
 
 ```bash
 npm i -D @azury/eslint-config
 ```
-
-### Usage
 
 ```yml
 extends: '@azury'
