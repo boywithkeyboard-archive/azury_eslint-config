@@ -72,7 +72,7 @@ module.exports = {
         unusedExports: true
       }
     ],
-    'unused-imports/no-unused-imports': 'error',
+    'unused-imports/no-unused-imports': 2,
     'unused-imports/no-unused-vars': [
       1,
       {
