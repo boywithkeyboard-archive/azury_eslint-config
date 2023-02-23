@@ -48,18 +48,6 @@ module.exports = {
         }
       }
     ],
-    'import/no-anonymous-default-export': [
-      2,
-      {
-        allowArray: false,
-        allowArrowFunction: false,
-        allowAnonymousClass: false,
-        allowAnonymousFunction: false,
-        allowCallExpression: false,
-        allowLiteral: false,
-        allowObject: false
-      }
-    ],
     'import/newline-after-import': [
       2,
       {
