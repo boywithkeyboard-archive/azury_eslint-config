@@ -16,7 +16,6 @@ module.exports = {
   rules: {
     '@typescript-eslint/consistent-type-imports': 2,
     'import/no-unresolved': 2,
-    'import/newline-after-import': 2,
     'import/no-dynamic-require': 2,
     'import/no-commonjs': 2,
     'import/no-amd': 2,
@@ -26,6 +25,7 @@ module.exports = {
     'import/no-mutable-exports': 2,
     'import/no-duplicates': 2,
     'import/group-exports': 2,
+    'sort-imports': 2,
     semi: [
       2,
       'never'
