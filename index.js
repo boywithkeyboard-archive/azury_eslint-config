@@ -35,12 +35,6 @@ module.exports = {
         }
       }
     ],
-    'autofix/sort-imports': [
-      2,
-      {
-        ignoreCase: true
-      }
-    ],
     '@typescript-eslint/consistent-type-imports': 2,
     'import/no-unresolved': 2,
     'import/no-dynamic-require': 2,
