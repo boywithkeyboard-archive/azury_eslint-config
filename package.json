@@ -1,6 +1,6 @@
 {
   "name": "@azury/eslint-config",
-  "version": "2023.3.3",
+  "version": "2023.3.4",
   "description": "azury's eslint config",
   "author": "Samuel Kopp <opensource@azury.dev> (https://azury.dev)",
   "license": "Apache-2.0",
@@ -11,7 +11,6 @@
     "@typescript-eslint/eslint-plugin": "^5.54.1",
     "@typescript-eslint/parser": "^5.54.1",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-unused-imports": "^2.0.0"
   },
   "peerDependencies": {

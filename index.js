@@ -10,15 +10,22 @@ module.exports = {
     'eslint:recommended',
     'plugin:import/recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:import/errors',
-    'plugin:import/warnings',
     'plugin:import/typescript'
   ],
   rules: {
-    'simple-import-sort/imports': 2,
-    'simple-import-sort/exports': 2,
+    '@typescript-eslint/consistent-type-imports': 2,
+    'import/no-unresolved': 2,
+    'import/no-dynamic-require': 2,
+    'import/no-commonjs': 2,
+    'import/no-amd': 2,
+    'import/exports-last': 2,
+    'import/no-self-import': 2,
+    'import/no-deprecated': 2,
+    'import/no-mutable-exports': 2,
+    'import/no-duplicates': 2,
+    'import/group-exports': 2,
     'import/order': [
-      1,
+      2,
       {
         groups: [
           'builtin',
@@ -35,17 +42,6 @@ module.exports = {
         }
       }
     ],
-    '@typescript-eslint/consistent-type-imports': 2,
-    'import/no-unresolved': 2,
-    'import/no-dynamic-require': 2,
-    'import/no-commonjs': 2,
-    'import/no-amd': 2,
-    'import/exports-last': 2,
-    'import/no-self-import': 2,
-    'import/no-deprecated': 2,
-    'import/no-mutable-exports': 2,
-    'import/no-duplicates': 2,
-    'import/group-exports': 2,
     semi: [
       2,
       'never'
