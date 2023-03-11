@@ -3,7 +3,8 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: [
     '@typescript-eslint',
-    'unused-imports'
+    'unused-imports',
+    'autofix'
   ],
   extends: [
     'eslint:recommended',
@@ -14,6 +15,13 @@ module.exports = {
     'plugin:import/typescript'
   ],
   rules: {
+    'autofix/sort-imports': [
+      2,
+      {
+        ignoreCase: true
+      }
+    ],
+    'autofix/no-var': 2,
     '@typescript-eslint/consistent-type-imports': 2,
     'import/no-unresolved': 2,
     'import/no-dynamic-require': 2,
@@ -25,7 +33,6 @@ module.exports = {
     'import/no-mutable-exports': 2,
     'import/no-duplicates': 2,
     'import/group-exports': 2,
-    'sort-imports': 2,
     semi: [
       2,
       'never'
