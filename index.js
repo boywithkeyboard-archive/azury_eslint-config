@@ -37,8 +37,15 @@ module.exports = {
           'type'
         ],
         alphabetize: {
-          'order': 'asc'
+          order: 'asc'
         }
+      }
+    ],
+    'sort-imports': [
+      2,
+      {
+        ignoreCase: true,
+        ignoreDeclarationSort: true
       }
     ],
     semi: [
