@@ -1,6 +1,6 @@
 {
   "name": "@azury/eslint-config",
-  "version": "2023.3.7",
+  "version": "2023.4.4",
   "description": "azury's eslint config",
   "author": "Samuel Kopp (https://samuelkopp.de)",
   "license": "Apache-2.0",
