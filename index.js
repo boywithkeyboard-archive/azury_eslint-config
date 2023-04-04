@@ -12,7 +12,12 @@ module.exports = {
     'plugin:import/typescript'
   ],
   rules: {
-    '@typescript-eslint/consistent-type-imports': 2,
+    '@typescript-eslint/consistent-type-imports': [
+      2,
+      {
+        prefer: 'no-type-imports'
+      }
+    ],
     'import/no-unresolved': 2,
     'import/no-dynamic-require': 2,
     'import/no-commonjs': 2,
